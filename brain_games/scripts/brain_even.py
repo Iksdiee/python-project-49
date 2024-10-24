@@ -1,4 +1,4 @@
-from ../games/brain_even import game_even
+from ..games.even import game_even
 from ..brain_engine import start_game
 
 def main():

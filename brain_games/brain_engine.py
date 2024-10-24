@@ -1,4 +1,4 @@
-from ..cli import welcome_user
+from .cli import welcome_user
 from .brain_constants import *
 
 def start_game(game, game_description):

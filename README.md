@@ -3,4 +3,4 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac52adceab9362a42712/maintainability)](https://codeclimate.com/github/Iksdiee/python-project-49/maintainability)
 
-[![asciicast](https://asciinema.org/a/WAmYvBtdI7iPVG0S4jvAYYwb1.svg)](https://asciinema.org/a/WAmYvBtdI7iPVG0S4jvAYYwb1)
+<a href="https://asciinema.org/a/WAmYvBtdI7iPVG0S4jvAYYwb1" target="_blank"><img src="https://asciinema.org/a/WAmYvBtdI7iPVG0S4jvAYYwb1.svg" /></a>

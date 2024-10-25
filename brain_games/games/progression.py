@@ -20,9 +20,9 @@ def game_progression():
 
     for i in range(len(basis)):
         if i == replace_index:
-            question += ' .. '
+            question += '.. '
         else:
-            question += f' {basis[i]} '
+            question += f'{basis[i]} '
 
     return question.strip(), str(answer)
 

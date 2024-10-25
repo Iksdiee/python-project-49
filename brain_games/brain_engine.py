@@ -1,5 +1,6 @@
 from .cli import welcome_user
-from .brain_constants import *
+from .brain_constants import GAME_DESCRIPTIONS
+
 
 def start_game(game, game_description):
     counter = 0
@@ -14,9 +15,10 @@ def start_game(game, game_description):
 
         if user_answer == correct_answer:
             print('Correct!')
-            counter +=1
+            counter += 1
         else:
-            print(f'''"{user_answer}" is wrong answer ;(. Correct answer was "{correct_answer}"\n Let's try again, {user_name}!''')
+            print(f'''"{user_answer}" is wrong answer ;(. Correct answer was "{correct_answer}"\n 
+            Let's try again, {user_name}!''')
             break
 
     if counter == 3:

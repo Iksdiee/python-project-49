@@ -1,8 +1,7 @@
-from ..games.even import game_even
-from ..brain_engine import start_game
+from ..games.even import start_game_even
 
 def main():
-    start_game(game_even, 'game-even')
+    start_game_even()
 
 if __name__ == "__main__":
     main()

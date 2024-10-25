@@ -1,8 +1,7 @@
-from ..games.calculator import game_calculator
-from ..brain_engine import start_game
+from ..games.calculator import start_game_calculator
 
 def main():
-    start_game(game_calculator, 'game-calculator')
+    start_game_calculator()
 
 if __name__ == "__main__":
     main()

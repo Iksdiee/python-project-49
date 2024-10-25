@@ -1,6 +1,5 @@
 import random
 from ..brain_engine import start_game
-from ..brain_constants import GAME_DESCRIPTIONS
 
 
 def game_even():

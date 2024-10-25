@@ -1,6 +1,7 @@
 import random
 from ..brain_engine import start_game
 
+
 def generate_progression():
     start_number = random.randint(0, 10)
     length = random.randint(5, 10)
@@ -8,9 +9,10 @@ def generate_progression():
     progression = []
 
     for i in range(length):
-       progression.append(start_number + i * increment)
+        progression.append(start_number + i * increment)
 
     return progression
+
 
 def game_progression():
     basis = generate_progression()
@@ -26,5 +28,7 @@ def game_progression():
 
     return question.strip(), str(answer)
 
+
 def start_game_progression():
     start_game(game_progression, 'game-progression')
+

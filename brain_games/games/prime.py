@@ -10,6 +10,7 @@ def is_prime(num):
             return False
     return True
 
+
 def game_prime():
 
     question = random.randint(0, 20)

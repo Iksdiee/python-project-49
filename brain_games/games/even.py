@@ -1,4 +1,6 @@
 import random
+from ..brain_engine import start_game
+from ..brain_constants import GAME_DESCRIPTIONS
 
 
 def game_even():
@@ -8,3 +10,6 @@ def game_even():
     else:
         correct_answer = "no"
     return num, correct_answer
+
+def start_game_even():
+    start_game(game_even, 'game-even')

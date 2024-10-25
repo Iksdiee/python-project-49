@@ -1,4 +1,5 @@
 import random
+from ..brain_engine import start_game
 
 
 def generate_progression():
@@ -27,3 +28,7 @@ def game_progression():
             question += f' {str(i)} '
 
     return question, str(answer)
+
+
+def start_game_progression():
+    start_game(game_progression, 'game-progression')

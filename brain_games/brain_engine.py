@@ -20,4 +20,4 @@ def start_game(game, game_description):
             break
 
     if counter == 3:
-        print(f"Congratulations,{user_name}!")
+        print(f"Congratulations, {user_name}!")

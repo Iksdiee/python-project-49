@@ -17,7 +17,8 @@ def start_game(game, game_description):
             print('Correct!')
             counter += 1
         else:
-            print(f'''"{user_answer}" is wrong answer ;(. Correct answer was "{correct_answer}"\n 
+            print(f'''"{user_answer}" is wrong answer ;(. 
+            Correct answer was "{correct_answer}"\n
             Let's try again, {user_name}!''')
             break
 

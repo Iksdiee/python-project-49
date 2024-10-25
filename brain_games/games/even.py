@@ -10,5 +10,7 @@ def game_even():
         correct_answer = "no"
     return num, correct_answer
 
+
 def start_game_even():
     start_game(game_even, 'game-even')
+

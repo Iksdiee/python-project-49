@@ -31,4 +31,3 @@ def game_progression():
 
 def start_game_progression():
     start_game(game_progression, 'game-progression')
-

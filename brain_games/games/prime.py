@@ -19,4 +19,4 @@ def game_prime():
 
 
 def start_game_prime():
-    start_game(game_prime, 'game-prime')
+    start_game(game_prime, 'prime')

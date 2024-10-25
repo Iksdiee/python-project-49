@@ -13,4 +13,3 @@ def game_even():
 
 def start_game_even():
     start_game(game_even, 'game-even')
-

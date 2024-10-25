@@ -27,7 +27,7 @@ def game_progression():
         else:
             question += f' {str(i)} '
 
-    return question, str(answer)
+    return question.strip(), str(answer)
 
 
 def start_game_progression():
